@@ -29,10 +29,6 @@ SOFTWARE.
 class SPI {
 #include <linux/spi/spidev.h>
 public:
-	/* Generic Definitions */
-	static const int SS_HIGH = 1;
-	static const int SS_LOW = 0;
-
 	/* Enum SPI Modes*/
 	typedef enum{
 		MODE0 = SPI_MODE_0,
